@@ -19,14 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name=".RateEleAct"
-            android:label="@string/title_activity_rate_ele"
-=======
+            android:label="@string/title_activity_rate_ele">
+        </activity>
+        <activity
             android:name=".ManyEleAct"
-            android:label="@string/title_activity_many_ele"
->>>>>>> origin/master
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_many_ele">
+        </activity>
+        <!-->>>>>>> origin/master
+            #android:theme="@style/AppTheme.NoActionBar">-->
     </application>
 
 </manifest>
