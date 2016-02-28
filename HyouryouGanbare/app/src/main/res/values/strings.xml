@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">HyouryouGanbare</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
     <string name="title_activity_rate_ele">RateEleAct</string>
+=======
+    <string name="title_activity_many_ele">ManyEleAct</string>
+>>>>>>> origin/master
 </resources>
