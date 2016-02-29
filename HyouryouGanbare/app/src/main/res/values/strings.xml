@@ -3,6 +3,9 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_rate_ele">RateEleAct</string>
     <string name="title_activity_many_ele">ManyEleAct</string>
+<<<<<<< HEAD
     <string name="title_activity_kind_ele">KindEleAct</string>
 
+=======
+>>>>>>> origin/master
 </resources>
