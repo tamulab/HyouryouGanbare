@@ -9,13 +9,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.yokoyama.hyouryouganbare.RateEleAct"
-    tools:showIn="@layout/activity_rate_ele">
+    tools:context="com.example.yokoyama.hyouryouganbare.KindEleAct"
+    tools:showIn="@layout/activity_kind_ele">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="koko ha rate ele act"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:text="kind" />
+
 </RelativeLayout>
