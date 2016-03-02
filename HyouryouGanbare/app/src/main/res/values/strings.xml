@@ -4,5 +4,6 @@
     <string name="title_activity_rate_ele">RateEleAct</string>
     <string name="title_activity_many_ele">ManyEleAct</string>
     <string name="title_activity_kind_ele">KindEleAct</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>
