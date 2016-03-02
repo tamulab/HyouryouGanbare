@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.example.yokoyama.hyouryouganbare">
 
@@ -8,34 +8,42 @@ package="com.example.yokoyama.hyouryouganbare">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
-<<<<<<< HEAD
+
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-    <activity android:name=".RateEleAct" android:label="@string/title_activity_rate_ele"
-    android:name=".ManyEleAct"
-    android:label="@string/title_activity_many_ele"
 
-    android:theme="@style/AppTheme.NoActionBar">
+    <activity android:name=".RateEleAct" android:label="@string/title_activity_rate_ele" android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
     </activity>
-    <activity android:name=".KindEleAct" android:label="@string/title_activity_kind_ele"
-        android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name=".ManyEleAct" android:label="@string/title_activity_many_ele"> android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".KindEleAct" android:label="@string/title_activity_kind_ele" android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
 </application>
-=======
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".RateEleAct"
-            android:label="@string/title_activity_rate_ele">
-        </activity>
-        <activity
-            android:name=".ManyEleAct"
-            android:label="@string/title_activity_many_ele">
-        </activity>
+
+
         <!-->>>>>>> origin/master
             #android:theme="@style/AppTheme.NoActionBar">-->
-    </application>
->>>>>>> origin/master
 
 </manifest>
