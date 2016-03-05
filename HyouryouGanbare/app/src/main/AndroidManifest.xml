@@ -34,7 +34,7 @@
         </activity>
         <activity
             android:name=".ManyEleAct"
-            android:label="@string/title_activity_many_ele">
+            android:label="@string/title_activity_many_ele"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,6 +56,14 @@
             android:name=".TestActivity"
             android:label="@string/title_activity_test"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SamMassAct"
+            android:label="@string/title_activity_sam_mass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Result"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

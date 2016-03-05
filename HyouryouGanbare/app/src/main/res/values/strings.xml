@@ -5,6 +5,8 @@
     <string name="title_activity_many_ele">ManyEleAct</string>
     <string name="title_activity_kind_ele">KindEleAct</string>
     <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_sam_mass">SamMassAct</string>
+    <string name="title_activity_result">Result</string>
 
-    
+
 </resources>

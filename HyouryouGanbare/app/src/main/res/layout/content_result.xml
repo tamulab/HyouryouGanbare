@@ -9,23 +9,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.yokoyama.hyouryouganbare.ManyEleAct"
-    tools:showIn="@layout/activity_many_ele">
+    tools:context="com.example.yokoyama.hyouryouganbare.Result"
+    tools:showIn="@layout/activity_result">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="koko_ha_many_ele_act"
-        android:layout_centerVertical="true"
+        android:text="けっかだよ"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView4" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="次へ(元素種は？）"
-        android:id="@+id/Button_To_KindEleAct"
-        android:layout_above="@+id/textView4"
-        android:layout_centerHorizontal="true"
-        android:textSize="24sp" />
+        android:layout_marginTop="81dp"
+        android:textSize="32sp" />
 </RelativeLayout>

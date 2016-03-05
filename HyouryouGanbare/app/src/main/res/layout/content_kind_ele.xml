@@ -17,4 +17,13 @@
         android:layout_height="wrap_content"
         android:text="kind" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="次へ(組成比)"
+        android:id="@+id/Button_To_RateEleAct"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
 </RelativeLayout>

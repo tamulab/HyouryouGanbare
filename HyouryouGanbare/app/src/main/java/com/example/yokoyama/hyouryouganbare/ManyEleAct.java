@@ -1,5 +1,6 @@
 package com.example.yokoyama.hyouryouganbare;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -23,6 +24,15 @@ public class ManyEleAct extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+            }
+        });
+
+        Button ButtonToKindEleAct = (Button) findViewById(R.id.Button_To_KindEleAct);
+        ButtonToKindEleAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), KindEleAct.class);
+                startActivity(intent);
             }
         });
     }

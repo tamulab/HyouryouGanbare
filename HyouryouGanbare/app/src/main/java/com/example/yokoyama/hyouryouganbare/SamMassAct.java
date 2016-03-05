@@ -9,12 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class KindEleAct extends AppCompatActivity {
+public class SamMassAct extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kind_ele);
+        setContentView(R.layout.activity_sam_mass);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -27,11 +27,11 @@ public class KindEleAct extends AppCompatActivity {
             }
         });
 
-        Button ButtonToKindEleAct = (Button) findViewById(R.id.Button_To_RateEleAct);
+        Button ButtonToKindEleAct = (Button) findViewById(R.id.Button_To_Result);
         ButtonToKindEleAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), RateEleAct.class);
+                Intent intent = new Intent(getApplication(), Result.class);
                 startActivity(intent);
             }
         });

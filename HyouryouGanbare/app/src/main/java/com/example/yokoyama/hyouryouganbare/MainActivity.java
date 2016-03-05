@@ -29,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button ButtonToManyEleAct = (Button) findViewById(R.id.Button_to_ManyEleAct);
+        ButtonToManyEleAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), ManyEleAct.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     @Override

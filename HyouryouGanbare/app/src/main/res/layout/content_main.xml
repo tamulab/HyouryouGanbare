@@ -28,12 +28,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="API18だとどうなるか"
-        android:id="@+id/textView4"
+        android:text="秤量計算スタート"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="32sp" />
+        android:id="@+id/Button_to_ManyEleAct" />
+
 </RelativeLayout>
