@@ -12,4 +12,12 @@
     tools:context="com.example.yokoyama.hyouryouganbare.TestActivity"
     tools:showIn="@layout/activity_test">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="てすと"
+        android:id="@+id/textView3"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
