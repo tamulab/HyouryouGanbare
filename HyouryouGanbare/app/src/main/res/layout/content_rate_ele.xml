@@ -16,16 +16,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="koko ha rate ele act"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView5" />
+        android:id="@+id/n_genkei"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="次へ(合計質量)"
         android:id="@+id/Button_To_SamMassAct"
-        android:layout_above="@+id/textView5"
-        android:layout_centerHorizontal="true"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/ele1"
+        android:layout_below="@+id/n_genkei"
+        android:layout_alignStart="@+id/Button_To_SamMassAct"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/ele2"
+        android:layout_alignBottom="@+id/ele1"
+        android:layout_alignEnd="@+id/Button_To_SamMassAct" />
+
 </RelativeLayout>

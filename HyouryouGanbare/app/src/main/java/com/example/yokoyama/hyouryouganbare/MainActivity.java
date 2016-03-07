@@ -14,16 +14,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView NgenkeiView, textData2, resultData;
-    Button moveButton;
-    int Ngenkei = 2;
-    int data2 = 2;
-    int result = 0;
-
-    static final int RESULT_SUBACTIVITY = 1000;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //とりあえず代入して吐き出したい
-        NgenkeiView = (TextView) findViewById(R.id.n_genkei);
-        NgenkeiView.setText(String.valueOf(Ngenkei) + "元系です");
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -44,15 +32,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //Button ButtonToManyEleAct = (Button) findViewById(R.id.Button_to_ManyEleAct);
-        //ButtonToManyEleAct.setOnClickListener(new View.OnClickListener() {
-           // @Override
-           // public void onClick(View v) {
-           //     Intent intent = new Intent(getApplication(), ManyEleAct.class);
-           //     intent.putExtra("N_genkei", N_genkei);
-           //     startActivity(intent);
-           // }
-        //});
+        Button ButtonToManyEleAct = (Button) findViewById(R.id.Button_to_ManyEleAct);
+        ButtonToManyEleAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplication(), ManyEleAct.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
