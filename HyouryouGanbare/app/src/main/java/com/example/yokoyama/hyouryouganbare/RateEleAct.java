@@ -31,7 +31,7 @@ public class RateEleAct extends AppCompatActivity {
         Ele1 = intent_to_rate.getStringExtra("Ele1");
         Ele1View = (TextView) findViewById(R.id.ele1);
         Ele1View.setText(String.valueOf(Ele1) + "を選択");
-        Ele2 = intent_to_rate.getStringExtra(Ele2);
+        Ele2 = intent_to_rate.getStringExtra("Ele2");
         Ele2View = (TextView) findViewById(R.id.ele2);
         Ele2View.setText(String.valueOf(Ele2) + "を選択");
 

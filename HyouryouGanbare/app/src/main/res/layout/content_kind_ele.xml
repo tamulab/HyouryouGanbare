@@ -16,7 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="kind"
-        android:id="@+id/n_genkei" />
+        android:id="@+id/n_genkei"
+        />
 
     <Button
         android:layout_width="wrap_content"
