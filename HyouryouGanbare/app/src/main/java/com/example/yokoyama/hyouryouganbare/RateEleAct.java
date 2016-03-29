@@ -14,6 +14,8 @@ public class RateEleAct extends AppCompatActivity {
 
     TextView NgenkeiView, Ele1View, Ele2View;
     String Ele1, Ele2;
+    int Rate1 = 1;
+    int Rate2 = 1;
     int Ngenkei;
 
 
@@ -48,8 +50,13 @@ public class RateEleAct extends AppCompatActivity {
         ButtonToKindEleAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), SamMassAct.class);
-                startActivity(intent);
+                Intent intent_to_sam = new Intent(getApplication(), SamMassAct.class);
+                intent_to_sam.putExtra("NGENKEI", Ngenkei);
+                intent_to_sam.putExtra("Ele1", "Fe");
+                intent_to_sam.putExtra("Ele2", "Co");
+                intent_to_sam.putExtra("RATE1",Rate1);
+                intent_to_sam.putExtra("RATE2",Rate2);
+                startActivity(intent_to_sam);
             }
         });
     }
